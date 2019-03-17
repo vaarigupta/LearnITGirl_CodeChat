@@ -36,7 +36,7 @@ Highlighted Points:-
 - Learn Spring Boot 
 - Key points  :-
 1. Learn how to implement authentication
-2. How to integrate AngularJS with Spring boot
+2. How to integrate Angular6 with Spring boot
 
 **week 5**
 - Learn Spring Boot
