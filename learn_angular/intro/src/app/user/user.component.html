@@ -6,6 +6,9 @@
   <p> {{doer.address}}</p>
   <div *ngIf="doer.phone.length > 0">
     <h3>Phone number : </h3>
-    <p *ngFor="let phoneno of doer.phone">{{phoneno}}</p>
+    <ol>
+      <li *ngFor="let phoneno of doer.phone">-- {{phoneno}}</li>
+    </ol>
+   
   </div>
 </div>

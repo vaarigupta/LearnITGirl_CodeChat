@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'user',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserComponent implements OnInit {
    doer : any;
+   @Input('name') userName : string;
   constructor() {
+   
+   }
+   
+  ngOnInit() {
     this.doer = {
-      name : 'Vaari',
+      name : this.userName,
       address : 'Delhi',
       phone : [
         '122349',
@@ -18,9 +23,6 @@ export class UserComponent implements OnInit {
       ]
 
     };
-   }
-   
-  ngOnInit() {
   }
 
 }
