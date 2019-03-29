@@ -15,34 +15,36 @@ Highlighted Points:-
 ## ROADMAP
 
 **week 1** 
-- Discuss flow of project 
-- Prepare temporary Layout of the User Interface 
-- Discuss about technology Stack used for the entire Project
+ - Discuss flow of project 
+ - Prepare temporary Layout of the User Interface 
+ - Discuss about technology Stack used for the entire Project
 
 **week 2**
-- Learn Angular6 
-- Start Developing UI 
-- Build Home Page 
-- Make User Profile 
+ - Learn Angular6 
+ - Start Developing UI  
 
 **week 3**
-- Page to Create a Session
-- Page to Join a Session'
-- Joined Session Pages  
-- Chat Page
-- Code  Page
+ - Learn some more concepts in Angular6
+ - Build Home Page 
+ - Make User Profile
 
 **week 4**
-- Learn Spring Boot 
-- Key points  :-
-1. Learn how to implement authentication
-2. How to integrate Angular6 with Spring boot
+
+ - Work on UI   
+ -  Create Page to generate  a Session  
+ -  Page to Join a Session'   
+ - Joined Session Pages 
+ -  Chat Page 
+ - Code Page  
+ -  Start  learning Spring Boot
 
 **week 5**
-- Learn Spring Boot
-- Learn MySQL to add Database
-- Start Making and setting up authentication page 
-- Save user details in the database 
+- Key points to focus while learning spring boot :-  
+1. Learn how to implement authentication  
+2. How to integrate Angular6 with Spring boot  
+- Learn MySQL to add Database  
+- Start Making and setting up authentication page  
+- Save user details in the database
 
 **week 6**
 - Complete Authentication
