@@ -1,4 +1,5 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family: Arial, Helvetica, sans-serif;
+}
 form {border: 3px solid #f1f1f1;}
 
 input[type=text], input[type=password] {
@@ -38,6 +39,7 @@ button:hover {
 span.psw {
   float: right;
   padding-top: 16px;
+  background-color:white;
 }
 
 /* Change styles for span and cancel button on extra small screens */
@@ -49,4 +51,10 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
+}
+
+.back
+{
+  background-color: white;
+  margin: 30px;
 }

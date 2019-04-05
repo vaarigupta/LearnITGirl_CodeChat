@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
     <div class="pull-left">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -7,35 +7,42 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto ">
         <li class="nav-item active">
+            <hr>
           <a class="nav-link" href="#"> Vaari</a>
         </li>
-        <hr>
+       
         <li class="nav-item active">
+            <hr>
             <a class="nav-link" href="#"> Your Sessions</a>
           </li>
 
-          <hr>
+         
           <li class="nav-item active">
+              <hr>
               <a class="nav-link" href="#">Created Sessions</a>
             </li>
 
-            <hr>
+           
             <li class="nav-item active">
+                <hr>
                 <a class="nav-link" href="#"> Joined Sessions</a>
               </li>
 
       </ul>
+
+      <div class="pull-right">
+          <hr>
+          <button mat-raised-button color="primary" class="codebtn" routerLink="/code">Code </button>
+          <hr>
+          <button class="chatbtn" mat-raised-button color="accent" routerLink="/chat">Chat</button>   
+           
+              
+     </div>
     </div>
 
 </div>
 
-   <div class="pull-right">
-   
-     <button mat-raised-button color="primary" class="codebtn" routerLink="/code">Code </button>
-      <button class="chatbtn" mat-raised-button color="accent" routerLink="/chat">Chat</button>   
-      
-         
-</div>
+ 
 
     
   </nav>

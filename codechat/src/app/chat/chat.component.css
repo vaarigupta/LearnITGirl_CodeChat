@@ -1,0 +1,15 @@
+.chatbox
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 30px;
+    background:linear-gradient(90deg , white , rgb(67, 209, 138));
+    width: 200px;
+    height: 200px;
+}
+
+.sendbtn
+{
+    margin: 20px 20px;
+}
