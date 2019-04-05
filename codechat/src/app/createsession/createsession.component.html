@@ -1,5 +1,38 @@
-<div>
-  <form >
+<ng-template #content let-modal>
 
-  </form>
-</div>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Create a Session</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <div class="modal-body">
+        <form action="#">
+        <div class="container">
+          <hr>
+      
+          <label for="sessionname"><b>Session Name </b></label>
+          <input type="text" placeholder="Enter session name" name="sessionname" required>
+    
+      
+          <label for="desc"><b>Description</b></label>
+          <input type="text" placeholder="Write description" name="desc" >
+          <hr>
+      
+        </div>
+        
+      </form>
+    </div>
+
+
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Create</button>
+    </div>
+  </ng-template>
+  
+  <div class="sessiondiv" (click)="open(content)">Create a Session</div>
+  <!-- <button class="btn btn-lg btn-outline-primary" (click)="open(content)">Create a Session</button> -->
+  
+  <br>
+  

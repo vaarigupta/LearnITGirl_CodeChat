@@ -1,3 +1,32 @@
-<p>
-  joinsession works!
-</p>
+<ng-template #content let-modal>
+
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Join a Session</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <div class="modal-body">
+        <form action="#">
+        <div class="container">
+          <hr>
+      
+          <label for="join"><b>Enter the Code </b></label>
+          <input type="text" placeholder="Enter Code" name="join" required>
+          <hr>
+      
+        </div>
+        
+      </form>
+    </div>
+
+
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Join</button>
+    </div>
+  </ng-template>
+  <div class="sessiondiv" (click)="open(content)">Join a Session</div>
+  
+  
+  
