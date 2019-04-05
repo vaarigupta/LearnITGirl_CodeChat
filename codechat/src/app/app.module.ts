@@ -13,6 +13,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { SessionComponent } from './session/session.component';
 import { CodeComponent } from './code/code.component';
 import { ChatComponent } from './chat/chat.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +31,9 @@ import { ChatComponent } from './chat/chat.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(), 
+    BrowserAnimationsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
