@@ -10,6 +10,7 @@ import { UserComponent } from './user/user.component';
 import { CreatesessionComponent } from './createsession/createsession.component';
 import { JoinsessionComponent } from './joinsession/joinsession.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { SessionComponent } from './session/session.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     LoginComponent,
     UserComponent,
     CreatesessionComponent,
-    JoinsessionComponent
+    JoinsessionComponent,
+    SessionComponent
   ],
   imports: [
     BrowserModule,
