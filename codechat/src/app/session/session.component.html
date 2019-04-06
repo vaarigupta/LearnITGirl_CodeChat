@@ -1,48 +1,42 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-    <div class="pull-left">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex flex-row ">
+    <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto ">
+  <div class="mr-auto">
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav">
         <li class="nav-item active">
-            <hr>
+           
           <a class="nav-link" href="#"> Vaari</a>
         </li>
        
         <li class="nav-item active">
-            <hr>
+           
             <a class="nav-link" href="#"> Your Sessions</a>
           </li>
 
          
           <li class="nav-item active">
-              <hr>
+            
               <a class="nav-link" href="#">Created Sessions</a>
             </li>
 
            
             <li class="nav-item active">
-                <hr>
+               
                 <a class="nav-link" href="#"> Joined Sessions</a>
               </li>
 
       </ul>
-
-      <div class="pull-right">
-          <hr>
+    </div>
+  </div>
+      <div class="ml-auto">
+          
           <button mat-raised-button color="primary" class="codebtn" routerLink="/code">Code </button>
-          <hr>
+          
           <button class="chatbtn" mat-raised-button color="accent" routerLink="/chat">Chat</button>   
            
               
      </div>
-    </div>
-
-</div>
-
- 
-
-    
+   
   </nav>
