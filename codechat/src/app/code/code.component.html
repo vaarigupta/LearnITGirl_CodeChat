@@ -1,8 +1,9 @@
 <app-session></app-session>
-
-<div class="d-flex flex-row ">
-  <div class="editor mr-auto p-2"></div>
-  <div class="chat ml-auto p-2"></div>
- 
-
-</div>
+<select >
+    <option *ngFor= "let theme of themes">{{theme}}</option>
+</select>
+<span></span>
+<select >
+    <option *ngFor= "let mode of modes">{{mode}}</option>
+</select>
+<div class="code-editor" #codeEditor></div>
