@@ -1,5 +1,7 @@
- # LearnITGirl_CodeChat
-
+ # LearnITGirl
+ The concerned project is being developed under the programme   ***[*LEARN IT GIRL*](https://www.learnitgirl.com/)*** . My project name is **CodeChat**  which is being developed under the eye of my mentor [@vishaka](https://github.com/vishakha-lall)
+ 
+ ## What is CodeChat all about?
 A code chat is basically a code editor which allows programmer to compile , send  code in a specific language to other users . 
 Highlighted Points:-
  
@@ -12,7 +14,53 @@ Highlighted Points:-
  - Allows to write code in various programming languages like  C , C++ , Java , Python
  - Allows to change the theme of code Editor
 
-## ROADMAP
+## Set up Environment
+
+Before you begin , just make sure that your development environment includes `Node.js®` and an `npm package manager.`
+
+### Node.js
+
+Angular requires  `Node.js`  version 8.x or 10.x.
+
+-   To check your version, run  `node -v`  in a terminal/console window.
+    
+-   To get  `Node.js`, go to  [nodejs.org](https://nodejs.org/ "Nodejs.org").
+
+### npm package manager[](https://angular.io/guide/quickstart#npm-package-manager "Link to this heading")
+
+Angular, the Angular CLI, and Angular apps depend on features and functionality provided by libraries that are available as  [npm packages](https://docs.npmjs.com/getting-started/what-is-npm). To download and install npm packages, you must have an npm package manager.
+
+This Quick Start uses the  [npm client](https://docs.npmjs.com/cli/install)  command line interface, which is installed with  `Node.js`  by default.
+
+To check that you have the npm client installed, run  `npm -v`  in a terminal/console window.
+
+### Install Angular CLI
+
+To install the Angular CLI globally using  `npm`, open a terminal/console window and enter the following command:
+
+`npm install -g @angular/cli`
+
+###  Run Codechat 
+
+Run the following command : 
+
+    https://github.com/vaarigupta/LearnITGirl_CodeChat.git
+
+ then next step is to, run the following command in the project folder ( cloned repo ) : 
+  
+
+    cd codechat
+
+now install all dependencies with the command :
+
+    npm install
+
+and here is the last step to finally see the CodeChat in your browser ( Make sure that you are inside the codechat folder ) 
+
+    ng serve 
+
+
+## ROADMAP 
 
 **week 1** 
  - Discuss flow of project 
@@ -39,14 +87,13 @@ Highlighted Points:-
  -  Start  learning Spring Boot
 
 **week 5**
-- Key points to focus while learning spring boot :-  
-1. Learn how to implement authentication  
-2. How to integrate Angular6 with Spring boot  
-- Learn MySQL to add Database  
-- Start Making and setting up authentication page  
-- Save user details in the database
+- Learn basics of spring boot     
+-  How to integrate Angular6 with Spring boot  
+- Integrate Code Editor in angular 
 
 **week 6**
+- Start Making and setting up authentication  
+- Save user details in the database
 - Complete Authentication
 - Work on User Profile - 
 - Implement Create and Join a session functionality
