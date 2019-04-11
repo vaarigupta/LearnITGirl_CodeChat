@@ -1,5 +1,6 @@
  # LearnITGirl
- The concerned project is being developed under the programme   ***[*LEARN IT GIRL*](https://www.learnitgirl.com/)*** . My project name is **CodeChat**  which is being developed under the eye of my mentor [@vishaka](https://github.com/vishakha-lall)
+ 
+ The concerned project is being developed under the programme   **Learn IT, Girl !** .  My project name is **CodeChat**  which is being developed under the eye of my mentor [@vishaka](https://github.com/vishakha-lall)
  
  ## What is CodeChat all about?
 A code chat is basically a code editor which allows programmer to compile , send  code in a specific language to other users . 
@@ -87,13 +88,14 @@ and here is the last step to finally see the CodeChat in your browser ( Make sur
  -  Start  learning Spring Boot
 
 **week 5**
-- Learn basics of spring boot     
--  How to integrate Angular6 with Spring boot  
-- Integrate Code Editor in angular 
+- Key points to focus while learning spring boot :-  
+1. Learn how to implement authentication  
+2. How to integrate Angular6 with Spring boot  
+- Learn MySQL to add Database  
+- Start Making and setting up authentication page  
+- Save user details in the database
 
 **week 6**
-- Start Making and setting up authentication  
-- Save user details in the database
 - Complete Authentication
 - Work on User Profile - 
 - Implement Create and Join a session functionality
