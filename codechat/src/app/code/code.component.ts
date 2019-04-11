@@ -5,6 +5,7 @@ import 'ace-builds/src-noconflict/mode-javascript';
 // ui-theme package
 import 'ace-builds/src-noconflict/theme-monokai';
 import 'ace-builds/src-noconflict/ext-language_tools';
+import 'ace-builds/src-noconflict/ext-beautify';
 import {themes} from '../themes';
 import {modes} from '../modes';
 
@@ -20,22 +21,44 @@ export class CodeComponent implements OnInit {
   modes = modes;
   @ViewChild('codeEditor') codeEditorElmRef: ElementRef;
   private codeEditor: ace.Ace.Editor;
-
+  private editorBeautify;
   constructor() { }
 
   ngOnInit () {
+    ace.require('ace/ext/language_tools');
       const element = this.codeEditorElmRef.nativeElement;
-      
-      const editorOptions: Partial<ace.Ace.EditorOptions> = {
-          highlightActiveLine: true,
-          minLines: 50,
-          maxLines: Infinity,
-      };
-
+      const editorOptions = this.getEditorOptions();
+      this.editorBeautify = ace.require('ace/ext/beautify');
       this.codeEditor = ace.edit(element, editorOptions);
       this.codeEditor.setTheme(THEME);
       this.codeEditor.getSession().setMode(LANG);
       this.codeEditor.setShowFoldWidgets(true); // for the scope fold feature
+      
    }
 
+   public beautifyContent()
+   {
+     if( this.codeEditor && this.editorBeautify)
+     {
+       const session = this.codeEditor.getSession();
+       this.editorBeautify.beautify(session);
+     }
+   }
+
+   private getCode() {
+    const code = this.codeEditor.getValue();
+    console.log(code);
+        }
+   private getEditorOptions() : Partial<ace.Ace.EditorOptions> & { enableBasicAutocompletion?: boolean;}{
+    const basicEditorOptions: Partial<ace.Ace.EditorOptions> = {
+      highlightActiveLine: true,
+      minLines: 50,
+      maxLines: Infinity,
+   };
+   const extraEditorOptions = {
+    enableBasicAutocompletion: true
+};
+const margedOptions = Object.assign(basicEditorOptions, extraEditorOptions);
+        return margedOptions;
+   };
 }

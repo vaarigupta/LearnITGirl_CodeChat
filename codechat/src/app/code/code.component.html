@@ -1,9 +1,90 @@
 <app-session></app-session>
-<select >
+<!-- <select >
     <option *ngFor= "let theme of themes">{{theme}}</option>
 </select>
 <span></span>
 <select >
     <option *ngFor= "let mode of modes">{{mode}}</option>
 </select>
-<div class="code-editor" #codeEditor></div>
+<div class="code-editor" #codeEditor></div> -->
+
+
+<!-- <div>
+    
+    <nav class="navbar navbar-light bg-light ">
+        <div class="container text-center p-2 ">
+            <span class="mx-auto text-bold">My Own IDE</span>
+        </div>
+    </nav>
+</div> -->
+
+
+
+<div class="container h-100 mt-4">
+    
+    <!-- languages & theme -->
+    <div class="row mb-4 justify-content-center mx-4">
+        <!-- languages select -->
+        <div class="col-auto col-lg-3 col-md-4 col-sm-6">
+            <div class="input-group input-group-sm">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="languages-select">Languages</label>
+                </div>
+                <select class="languages-select" id="languages-select" #languagesSelect>
+                        <option *ngFor= "let mode of modes">{{mode}}</option>
+                </select>
+            </div>
+        </div>
+        <!-- theme radio buttons -->
+        <div class="col-auto col-lg-3 col-md-4 col-sm-6">
+            <div class="btn-group btn-group-toggle btn-group-sm mx-auto" data-toggle="buttons">
+                <label class="btn btn-secondary active">
+                    <input type="radio" name="options" id="option1" autocomplete="off" checked>
+                    theme01
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option2" autocomplete="off">
+                    theme02
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option3" autocomplete="off">
+                    theme03
+                </label>
+            </div>
+        </div>
+    </div>
+    
+    <!-- the code editor -->
+    <div class="row mb-4">
+        <div class="col">
+            <div class="code-editor" #codeEditor></div>
+        </div>
+    </div>
+
+    <!-- run, clear & beautify buttons -->
+    <div class="row mb-4 justify-content-center mx-4">
+        <div class="col-4 col-lg-2 col-md-3 col-sm-4 w-75">
+            <button type="button" mat-raised-button color="primary" class="btn-sm btn-block px-4 mx-2" (click)="consoleCode()">
+                Run
+            </button>
+        </div>
+        <div class="col-4 col-lg-2 col-md-3 col-sm-4 w-75">
+            <button type="button" mat-raised-button color="accent" class="btn-sm btn-block px-4 mx-2" (click)="consoleCode()">
+                Clear
+            </button>
+        </div>
+        <div class="col-4 col-lg-2 col-md-3 col-sm-4 w-75">
+            <button type="button" mat-raised-button color="warn" class="btn-sm btn-block px-4 mx-2" (click)="beautifyContent()">
+                Beautify
+            </button>
+        </div>
+    </div>
+
+    <!-- output box -->
+    <div class="row mt-4">
+        <div class="col">
+            <div class="label-box border"><span class="mx-4 font-weight-light">Output</span></div>
+            <textarea class="form-control output" rows="6" disabled="true" aria-label="output-textarea"></textarea>
+        </div>
+    </div>
+</div>
