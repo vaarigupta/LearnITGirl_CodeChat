@@ -12,6 +12,7 @@ div.label-box {
 .output {
     border-bottom-left-radius: .5rem!important;
     border-bottom-right-radius: .5rem!important;
+    background-color: #ffcc99;
 }
 
 .btn-beautify {
@@ -31,3 +32,21 @@ select.languages-select > option {
 select.languages-select:focus > option:checked { 
     font-weight: bold;
 }
+
+.lang
+{
+    border: 1px red solid;
+    color: black ;
+}
+
+
+.comments-main{
+    background: #FFF;
+  }
+  
+  .comment-box-main{
+    background: rgb(154, 174, 24);
+  }
+  
+
+  

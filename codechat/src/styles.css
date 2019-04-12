@@ -4,6 +4,6 @@
 html, body { height: 100%; }
 body { margin: 0; 
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    background: linear-gradient(90deg,#E16036 , #E7EDE0);
-
+    background-color: #ffff80;
+   
 }
