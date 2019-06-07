@@ -1,0 +1,17 @@
+<div class="container">
+    <form>
+  <div class="form-group">
+    User Name : 
+    <br>
+    <input type="text" class="form-control" name="username" [(ngModel)]="username">
+    <br>
+    Password :
+    <br>
+    <input type="password" class="form-control" name="password" [(ngModel)]="password">
+  </div>
+  <br>
+  <button (click)=checkLogin() class="btn btn-success">
+    Login
+  </button>
+  </form>
+</div>
