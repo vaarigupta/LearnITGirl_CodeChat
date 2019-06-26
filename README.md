@@ -1,6 +1,8 @@
 # LearnITGirl
 
-![Working project](./SNAPS/main.png)
+# ![Working project](./SNAPS/main.png)
+
+# [Visit here for live demo of project](https://drive.google.com/open?id=1CNtpX7AUBLtixfkDflpY9Kg8WXYe8_vy)
 
 The concerned project is being developed under the program **Learn IT, Girl !** . My project name is **CodeChat** which is being developed under the eye of my mentor [@vishaka](https://github.com/vishakha-lall)
 
