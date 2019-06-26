@@ -1,6 +1,6 @@
 # LearnITGirl
 
-![Snapshot of working project](./SNAPS?main.png)
+![Working project](./SNAPS/main.png)
 
 The concerned project is being developed under the programme **Learn IT, Girl !** . My project name is **CodeChat** which is being developed under the eye of my mentor [@vishaka](https://github.com/vishakha-lall)
 
