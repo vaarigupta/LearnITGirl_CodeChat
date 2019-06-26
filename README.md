@@ -2,31 +2,36 @@
 
 ![Working project](./SNAPS/main.png)
 
-The concerned project is being developed under the programme **Learn IT, Girl !** . My project name is **CodeChat** which is being developed under the eye of my mentor [@vishaka](https://github.com/vishakha-lall)
+The concerned project is being developed under the program **Learn IT, Girl !** . My project name is **CodeChat** which is being developed under the eye of my mentor [@vishaka](https://github.com/vishakha-lall)
 
 ## What is CodeChat all about?
 
-A code chat is basically a code editor which allows programmer to compile , send code in a specific language to other users .
+ - CodeChat is used for sending codes like a chat message and makes your code easily shareable to others who have joined the session.  
+ - If one user sends the code then, it is available to all other users who are currently active on that particular session.
+ - If a new user joins a chat then, all the current members get a flash message of his / her joining the chat.
 
-Highlighted Points:-
+## Advantages of CodeChat
 
-  
+   It will play an effective role to assist programmers who are remotely located and need to share their code in collaboration
+    
+-   There is a availability of CHATBOX through which programmers can convey message to other programmers by sending message .
+    
+-   By providing a feature of sending message to all at once, ,the workload becomes less of the project manager
 
-- User can switch between Normal Chat to CodeChat
+# Technology Used
 
-- A complete authentication system with a functionality to create and join a session
+ - Spring boot 
+ - Web Socket 
+ - HTML 
+ - CSS 
+ - Javascript
 
-- when a user creates a code chat then a key is generated which is
+# Tools Used
 
-shareable and whoever enters this key then they can join that particular session
-
-- Allows easy sharing of code among various participants.
-
-- Allows to write code in various programming languages like C , C++ , Java , Python
-
-- Allows to change the theme of code Editor
-
-  
+ - Eclipse Oxygen 
+ - Visual Studio Code
+ -  Command line prompt 
+ - Spring boot Suite
 
 ## Set up Environment
 
@@ -171,11 +176,9 @@ ng serve
 
 - Key points to focus while learning spring boot :-
 
-1. Learn how to implement authentication
+-  Learn how to implement authentication
 
-2. How to integrate Angular6 with Spring boot
-
-- Learn MySQL to add Database
+-  How to integrate Angular6 with Spring boot
 
 - Start Making and setting up authentication page
 
